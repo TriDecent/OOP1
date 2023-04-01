@@ -50,7 +50,7 @@ void RutGonPS(PhanSo &x)
 }
 bool SoSanhPS(PhanSo a, PhanSo b)
 {
-    return a.iTuSo/a.iMauSo < b.iTuSo/b.iMauSo;
+    return a.iTuSo/a.iMauSo < b.iTuSo/b.iMauSo; //sua lai la a.iTuSo*b.iMauSo < b.iTuSo*a.iMauSo; thu voi truong hop luu trong anh se sai 
 }
 void XuatPS(PhanSo x)
 {
