@@ -52,7 +52,7 @@ void RutGonPS(PhanSo &x)
 }
 bool SoSanhPS1(PhanSo a, PhanSo b)
 {
-    return a.iTuSo*b.iMauSo < b.iTuSo*a.iMauSo;
+    return a.iTuSo*b.iMauSo < b.iTuSo*a.iMauSo; //ban dau nhap a.iTuSo/a.iMauSo < b.iTuSo/b.iMauSo loi truong hop khi xuat hien phan so 0
 }
 bool SoSanhPS2(PhanSo a, PhanSo b)
 {
